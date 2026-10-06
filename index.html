@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ton Bus · Aide et contact</title>
+<meta name="description" content="Ton Bus, l'appli iPhone qui te dit quand partir pour attraper ton bus à Paris, Boulogne-Billancourt et Issy-les-Moulineaux.">
+<style>
+  :root { color-scheme: light dark; --text: #1d1d1f; --muted: #6e6e73; --bg: #ffffff; --card: #f5f5f7; --link: #0066cc; }
+  @media (prefers-color-scheme: dark) { :root { --text: #f5f5f7; --muted: #a1a1a6; --bg: #000000; --card: #1c1c1e; --link: #2997ff; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 36px 0 8px; }
+  h3 { font-size: 17px; margin: 20px 0 4px; }
+  p, li { margin: 8px 0; }
+  ol, ul { padding-left: 22px; }
+  a { color: var(--link); }
+  .muted { color: var(--muted); }
+  .summary { background: var(--card); border-radius: 16px; padding: 4px 20px; margin: 24px 0; }
+  footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ton Bus</h1>
+  <p class="muted">Aide et contact</p>
+
+  <div class="summary">
+    <p>Ton Bus te dit <strong>quand partir</strong> de chez toi ou du travail pour attraper ton bus, d'après le passage réel du bus et ton propre temps de marche jusqu'à l'arrêt, puis t'accompagne pendant le trajet.</p>
+    <p>Lignes de bus de Paris, Boulogne-Billancourt et Issy-les-Moulineaux, bus de nuit compris. Sur iPhone, iOS 27 ou plus récent.</p>
+  </div>
+
+  <h2>Obtenir ta clé PRIM</h2>
+  <p>Ton Bus utilise les données ouvertes d'Île-de-France Mobilités avec ta propre clé, gratuite. Compte environ 3 minutes :</p>
+  <ol>
+    <li>Sur <a href="https://prim.iledefrance-mobilites.fr">prim.iledefrance-mobilites.fr</a>, touche « Connexion » en haut à droite, puis crée ton compte gratuit.</li>
+    <li>Une fois connecté, ouvre ton menu personnel, puis « Mes jetons d'authentification ».</li>
+    <li>Dans l'onglet « API », touche « Générer mon jeton » et copie-le aussitôt : PRIM ne l'affiche en entier qu'une seule fois.</li>
+    <li>Reviens dans Ton Bus et colle-le à l'étape « Ta clé PRIM », puis touche « Vérifier et enregistrer ».</li>
+  </ol>
+
+  <h2>Questions fréquentes</h2>
+  <h3>Puis-je essayer Ton Bus sans clé ?</h3>
+  <p>Oui. Touche « Découvrir sans clé » sur l'écran d'accueil, ou « Continuer sans clé » à l'étape de la clé : tu découvres toute l'appli avec des horaires simulés, sans aucune requête. Le bandeau « Mode découverte » te permet ensuite d'entrer ta clé pour suivre les vrais passages.</p>
+  <h3>PRIM refuse ma clé</h3>
+  <p>Vérifie que tu as copié le jeton en entier. Si tu as généré un nouveau jeton sur PRIM, l'ancien ne fonctionne plus : remplace-le dans Ton Bus, Réglages → Clé PRIM → Remplacer.</p>
+  <h3>« Quota du jour atteint »</h3>
+  <p>PRIM limite le nombre de demandes par clé et par jour (1 000 pour une clé récente). Ton Bus compte ses demandes, n'en fait que lorsque c'est utile et garde une réserve pour l'appli et le suivi de trajet. Le compteur se trouve dans Réglages → Requêtes PRIM, ta consommation sur ton espace PRIM. Les horaires reviennent le lendemain.</p>
+  <h3>« Aucun bus annoncé »</h3>
+  <p>La ligne ne circule peut-être plus à cette heure, ou les passages en temps réel ne sont pas publiés pour cet arrêt. Réessaie un peu plus tard.</p>
+  <h3>Faut-il activer la localisation ?</h3>
+  <p>Non. Ton Bus fonctionne sans. Si tu l'actives, elle sert seulement pendant un trajet que tu suis : marche jusqu'à l'arrêt, « Allonge le pas », montée et descente du bus, Live Activity tenue à jour.</p>
+  <h3>Comment changer de trajet ou de temps de marche ?</h3>
+  <p>Dans Ton Bus, Réglages : touche ton trajet pour changer de ligne ou d'arrêts, et règle tes temps de marche. Le chrono les mesure à la seconde près.</p>
+  <h3>Que deviennent mes données ?</h3>
+  <p>Elles restent sur ton iPhone : Ton Bus n'a ni serveur ni compte. Voir la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Une question, un horaire qui semble faux, une idée : <a href="mailto:betadote@proton.me">betadote@proton.me</a>.</p>
+
+  <footer>Données : Île-de-France Mobilités (données ouvertes). Les horaires sont des estimations en temps réel. Ton Bus est une appli indépendante, ni éditée ni approuvée par Île-de-France Mobilités ou par les exploitants des lignes de bus.</footer>
+</main>
+</body>
+</html>
